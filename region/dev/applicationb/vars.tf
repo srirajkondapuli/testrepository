@@ -1,6 +1,6 @@
 variable "app_base_url" {
-  default = "http://localhost:999.com"
   type    = string
+  default = "http://localhost.com"
 }
 variable "app_login_path" {
   type    = string
