@@ -1,8 +1,8 @@
 variable "app_base_url" {
-  default = "http://localhost.com"
   type    = string
+  default = "http://localhost.com"
 }
 variable "app_login_path" {
   type    = string
-  default = "/testapp/api/logon"
+  default = "/testappbb/api/logon"
 }
